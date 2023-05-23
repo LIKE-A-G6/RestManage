@@ -9,7 +9,7 @@
     <Grid>
         <PasswordBox HorizontalAlignment="Left" Margin="316,217,0,0" VerticalAlignment="Top" Width="120"/>
         <TextBox HorizontalAlignment="Left" Margin="316,186,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Авторизация" HorizontalAlignment="Left" Margin="333,141,0,0" VerticalAlignment="Top"/>
+        <Label Content="Авторизация" HorizontalAlignment="Left" Margin="333,142,0,0" VerticalAlignment="Top"/>
         <Button Content="Войти" HorizontalAlignment="Left" Margin="355,267,0,0" VerticalAlignment="Top"/>
 
     </Grid>

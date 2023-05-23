@@ -23,6 +23,7 @@ namespace RestManage
         public MainWindow()
         {
             InitializeComponent();
+            int a;
         }
     }
 }
