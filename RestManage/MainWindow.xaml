@@ -5,12 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RestManage"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="393" Width="391">
     <Grid>
-        <PasswordBox HorizontalAlignment="Left" Margin="316,217,0,0" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Margin="316,186,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <Label Content="Авторизация" HorizontalAlignment="Left" Margin="333,142,0,0" VerticalAlignment="Top"/>
-        <Button Content="Войти" HorizontalAlignment="Left" Margin="355,267,0,0" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="PasswordTxt" HorizontalAlignment="Center" Margin="0,205,0,0" VerticalAlignment="Top" Width="236" Height="25"/>
+        <TextBox x:Name="LoginTxt" HorizontalAlignment="Center" Margin="0,162,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="236" Height="24"/>
+        <Label Content="Авторизация" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Margin="0,92,0,0" VerticalAlignment="Top" Height="36" Width="161"/>
+        <Button x:Name="LoginBtn" Content="Войти" HorizontalAlignment="Center" Margin="0,249,0,0" VerticalAlignment="Top" Height="28" Width="73" Click="LoginBtn_Click"/>
+        <Label x:Name="RegistrationBtn" Content="Еще нет аккаута?" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Margin="0,284,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.487,-0.153" Height="36" Width="203"/>
 
     </Grid>
 </Window>
