@@ -5,8 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RestManage"
         mc:Ignorable="d"
-        Title="RegistrationWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="RegistrationWindow" Height="532" Width="398.743">
+    <Grid Margin="0,0,2,0" Height="532" Width="398.743">
+        <Label Content="Регистрация" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="120,46,0,0" Width="150"/>
+        <TextBox x:Name="LoginTxt" HorizontalAlignment="Center" Height="23" Margin="128,113,120.743,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="150"/>
+        <PasswordBox x:Name="PasswordTxt" HorizontalAlignment="Left" Margin="128,160,0,0" VerticalAlignment="Top" Width="150" Height="23"/>
+        <TextBox x:Name="LastNameTxt" HorizontalAlignment="Center" Height="23" Margin="128,253,120.743,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150"/>
+        <TextBox x:Name="FirstNameTxt" HorizontalAlignment="Center" Height="23" Margin="128,300,120.743,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150"/>
+        <TextBox x:Name="PatronymicTxt" HorizontalAlignment="Center" Height="23" Margin="128,347,120.743,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="150"/>
+        <Button x:Name="RegistrationBtn" Content="Зарегисирироваться" HorizontalAlignment="Left" Margin="128,375,0,0" VerticalAlignment="Top" Width="150" RenderTransformOrigin="0.493,0.523" Height="44" Click="RegistrationBtn_Click"/>
+        <Label Content="Логин" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" FontSize="11" HorizontalAlignment="Left" Margin="128,89,0,0" VerticalAlignment="Top" Width="150" Height="24"/>
+        <Label Content="Пароль" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" FontSize="11" HorizontalAlignment="Left" Margin="128,136,0,0" VerticalAlignment="Top" Width="150" Height="24"/>
+        <Label Content="Фамилия" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" FontSize="11 " HorizontalAlignment="Left" Margin="128,229,0,0" VerticalAlignment="Top" Width="150" Height="24"/>
+        <Label Content="Имя" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" FontSize="11 " HorizontalAlignment="Left" Margin="128,276,0,0" VerticalAlignment="Top" Width="150" Height="24"/>
+        <Label Content="Отчество" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" FontSize="11 " HorizontalAlignment="Left" Margin="128,323,0,0" VerticalAlignment="Top" Width="150" Height="24"/>
+        <PasswordBox x:Name="ConfirmPasswordTxt" HorizontalAlignment="Left" Margin="128,207,0,0" VerticalAlignment="Top" Width="150" Height="23"/>
+        <Label Content="Повтор пароля" VerticalContentAlignment="Center" HorizontalContentAlignment="Left" FontSize="11" HorizontalAlignment="Left" Margin="128,183,0,0" VerticalAlignment="Top" Width="150" Height="24"/>
+
     </Grid>
 </Window>
